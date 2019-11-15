@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    /* position: relative; */
+    background: rgba(247,182,52,1);
+    background: -moz-linear-gradient(left, rgba(247,182,52,1) 0%, rgba(255,121,18,1) 31%, rgba(255,81,0,1) 59%, rgba(240,47,23,1) 81%, rgba(255,21,0,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,182,52,1)), color-stop(31%, rgba(255,121,18,1)), color-stop(59%, rgba(255,81,0,1)), color-stop(81%, rgba(240,47,23,1)), color-stop(100%, rgba(255,21,0,1)));
+    background: -webkit-linear-gradient(left, rgba(247,182,52,1) 0%, rgba(255,121,18,1) 31%, rgba(255,81,0,1) 59%, rgba(240,47,23,1) 81%, rgba(255,21,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(247,182,52,1) 0%, rgba(255,121,18,1) 31%, rgba(255,81,0,1) 59%, rgba(240,47,23,1) 81%, rgba(255,21,0,1) 100%);
+    background: -ms-linear-gradient(left, rgba(247,182,52,1) 0%, rgba(255,121,18,1) 31%, rgba(255,81,0,1) 59%, rgba(240,47,23,1) 81%, rgba(255,21,0,1) 100%);
+    background: linear-gradient(to right, rgba(247,182,52,1) 0%, rgba(255,121,18,1) 31%, rgba(255,81,0,1) 59%, rgba(240,47,23,1) 81%, rgba(255,21,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7b634', endColorstr='#ff1500', GradientType=1 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.border {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 25px;
+    width: 500px;
+    height: 700px;
+    padding: 10px 50px 10px 50px;
+}
+.title {
+    padding: 5px;
+}
+.game {
+    background-image: url('/diceface.png');
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.startagain {
+    margin: 10px;
+    padding: 5px;
+}
+
+.roll {
+    margin: 10px;
+    padding: 5px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: crimson;
+}
+
+.h2 {
+    width: 25px;
+    height: 25px;
+}
+#score {
+    font-size: 1em;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+    background: #EEE;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    margin: auto;
+}
+#btns {
+    display: flex;
+    flex-direction: row;
+}
+
+#startagain {
+    width: 100px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: center;
+}
+
+#dice-roll{
+    width: 100px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: center;
+}
